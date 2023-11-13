@@ -10,44 +10,44 @@ import SwiftUI
 struct LoginView: View {
     @State var email = ""
     @State var password = ""
+    
     var body: some View {
-        VStack {
-            // Header
-            HeaderView()
-            
-            // Login Form
-            Form {
-                TextField("Email", text: $email)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                SecureField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
+        NavigationView{
+            VStack {
+                // Header
+                HeaderView(title:"To Do List", subtitle:"Get things done", angle: 15, background: .pink)
                 
-                Button {
-                    // Attempt log in
-                } label : {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundColor(Color.blue)
-                        Text("Log In")
-                            .foregroundColor(Color.white)
-                            .bold()
-                    }
+                // Login Form
+                Form {
+                    TextField("Email", text: $email)
+                        .textFieldStyle(DefaultTextFieldStyle())
+                    SecureField("Password", text: $password)
+                        .textFieldStyle(DefaultTextFieldStyle())
                     
+                    TLButton(
+                        title: "Log In"
+                        background: .blue
+                    ) {
+                        // Attempt log in
+                    }
+
+                    }
+                    .padding()
                 }
+                .offset(y:-50)
+                
+                //Creat Account
+                VStack{
+                    Text("New around here?")
+                    NavigationLink("Create An Account", destination: RegisterView())
+                }
+                .padding(.bottom, 50)
+                
+                Spacer()
             }
             
-            //Creat Account
-            
-            VStack{
-                Text("New around here?")
-                Button("Create An Account") {
-                    // Shwo registration
-                }
-            }
-            .padding(.bottom, 50)
-            
-            Spacer()
         }
+
     }
 }
 

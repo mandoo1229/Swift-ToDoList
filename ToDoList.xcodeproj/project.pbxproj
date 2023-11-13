@@ -33,6 +33,7 @@
 		5A186C402AF61D5A000C798A /* RegisterViewViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A186C3F2AF61D5A000C798A /* RegisterViewViewViewModel.swift */; };
 		5A186C422AF61DAB000C798A /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A186C412AF61DAB000C798A /* ToDoListViewViewModel.swift */; };
 		5A186C442AF626F7000C798A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A186C432AF626F7000C798A /* HeaderView.swift */; };
+		5A5AD64C2AFE0C49005ABE9D /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5AD64B2AFE0C49005ABE9D /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		5A186C3F2AF61D5A000C798A /* RegisterViewViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewViewModel.swift; sourceTree = "<group>"; };
 		5A186C412AF61DAB000C798A /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		5A186C432AF626F7000C798A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5A5AD64B2AFE0C49005ABE9D /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				5A186C272AF61C0E000C798A /* ToDoListView.swift */,
 				5A186C292AF61C31000C798A /* NewItemView.swift */,
 				5A186C2B2AF61C40000C798A /* LoginView.swift */,
+				5A5AD64B2AFE0C49005ABE9D /* TLButton.swift */,
 				5A186C2D2AF61C57000C798A /* RegisterView.swift */,
 				5A186C232AF61BCB000C798A /* ToDoListItemView.swift */,
 				5A186C432AF626F7000C798A /* HeaderView.swift */,
@@ -248,6 +251,7 @@
 				5A186C2C2AF61C40000C798A /* LoginView.swift in Sources */,
 				5A186C3C2AF61D38000C798A /* NewItemViewIvewModel.swift in Sources */,
 				5A186C352AF61CFC000C798A /* MainViewViewModel.swift in Sources */,
+				5A5AD64C2AFE0C49005ABE9D /* TLButton.swift in Sources */,
 				5A186C282AF61C0E000C798A /* ToDoListView.swift in Sources */,
 				5A186C262AF61BF9000C798A /* ProfileView.swift in Sources */,
 				5A186C382AF61D1A000C798A /* ProfileViewViewModel.swift in Sources */,
